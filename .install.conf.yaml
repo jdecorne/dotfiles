@@ -1,3 +1,11 @@
-- clean: []
-- link: {}
-- shell: []
+- defaults:
+    link:
+      create: true
+      relink: true
+- clean: ['~']
+- link:
+    ~/.dotfiles: ''
+    ~/.zsh:
+    ~/.zshrc:
+- shell:
+  - ["git submodule update --init --recursive", "Installing submodules"]
