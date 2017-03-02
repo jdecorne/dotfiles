@@ -4,7 +4,6 @@
       relink: true
 - clean: ['~']
 - link:
-    ~/.dotfiles: ''
     ~/.zsh:
     ~/.zshrc:
 - shell:
