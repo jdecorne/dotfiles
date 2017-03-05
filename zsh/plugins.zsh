@@ -11,7 +11,8 @@ antigen bundle git
 #antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
+#antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
+antigen theme https://github.com/jdecorne/spaceship-zsh-theme spaceship
 
 # Tell antigen that you're done.
 antigen apply
