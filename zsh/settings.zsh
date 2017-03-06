@@ -1,0 +1,5 @@
+# spaceship theme
+
+SPACESHIP_PROMPT_SYMBOL='$'
+SPACESHIP_PROMPT_TRUNC=0
+
