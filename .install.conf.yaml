@@ -2,10 +2,11 @@
     link:
       create: true
       relink: true
-- clean: ['~']
+- clean: ['~', '~/.config']
 - link:
     ~/.zsh:
     ~/.zshrc:
     ~/.tmux.conf:
+    ~/.config/terminator:
 - shell:
   - ["git submodule update --init --recursive", "Installing submodules"]
