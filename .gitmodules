@@ -1,3 +1,6 @@
 [submodule ".dotbot"]
 	path = .dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule ".spaceship-zsh-theme"]
+	path = .spaceship-zsh-theme
+	url = https://github.com/jdecorne/spaceship-zsh-theme.git
