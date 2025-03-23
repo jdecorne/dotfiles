@@ -2,9 +2,12 @@
     link:
       create: true
       relink: true
+- shell:
+  - [git submodule update --init --recursive, "Installing submodules..."]
+  - [sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", "Installing Oh My Zsh..."]
+  - [rm $HOME/.zshrc, "Removing Oh My Zsh .zshrc... "]
+  - [cp $PWD/.spaceship-zsh-theme/spaceship.zsh-theme $HOME/.oh-my-zsh/themes/spaceship.zsh-theme, "Setting Spaceship theme"]
 - clean: ['~', '~/.config']
 - link:
     ~/.zsh:
     ~/.zshrc:
-- shell:
-  - ["git submodule update --init --recursive", "Installing submodules"]
